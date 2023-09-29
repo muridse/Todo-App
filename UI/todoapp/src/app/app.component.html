@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="todo-list">
+    
+    <div class="head">
+      <h2>Todo App</h2>
+      <input class="newNotes" id="newNotes">
+      <button class="newButton" (click)="addNotes()">Add Note</button>
+    </div>
+    
+    <h3 class="note" *ngFor = "let note of notes">
+      <b class="note-text"> - {{note.description}} </b>
+      <button class="delete-button" (click)="deleteNotes(note.id)">Delete</button>
+    </h3>
+  </div>
+</div>

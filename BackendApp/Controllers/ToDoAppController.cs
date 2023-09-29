@@ -54,7 +54,7 @@ namespace BackendApp.Controllers
         }
         [HttpDelete]
         [Route("DeleteNote")]
-        public JsonResult DeleteNote([FromForm] int id)
+        public JsonResult DeleteNote(int id)
         {
             string query = $"DELETE FROM notes WHERE id = {id}";
             DataTable table = new DataTable();

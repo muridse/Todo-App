@@ -1,0 +1,73 @@
+.container {
+    font-family: "California", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #DECCCC;
+  }
+  
+  .todo-list{
+    border: 1px solid #ccc;
+    background-color: #1098F7;
+    width: 512px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px; 
+    margin: 0;
+    white-space: normal;
+  }
+  .newNotes{
+    border-radius: 10px; 
+    margin-right: 10px;
+  }
+  .newButton{
+    border-radius: 10px; 
+  }
+  .note {
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background-color: #FFFFFF;
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+  }
+  .todo-list .head{
+    margin: 0;
+    text-align: center;
+  }
+  
+  .todo-list b {
+    width: 512px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+    margin-bottom: 5px;
+  }
+  
+  .todo-list b .note-text {
+    float: left;
+    flex: 1;
+  }
+  
+  .todo-list .delete-button {
+    float: right;
+    border-radius: 10px;
+    background-color: #eb5a46;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+  
+  .todo-list .delete-button:hover {
+    background-color: #c74331;
+  }
+  
+  .todo-list .delete-button:active {
+    background-color: #af3122;
+  }
+  
